@@ -1,0 +1,24 @@
+.title p {
+    font-size:medium;
+}
+.title {
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(246, 228, 94);
+}
+main {
+    background: linear-gradient(rgba(230, 227, 144, 0.5), rgba(226, 182, 79, 0.5));
+}
+.banner {
+    background: url(/images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:link {
+    text-decoration:none;
+    color:beige
+}
+.foot {
+    font-size: small;
+    text-align: right;
+}
