@@ -1,18 +1,33 @@
-.title p {
-    font-size:medium;
-}
-.title {
-    font-size:xx-large;
+.navbar-brand {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(246, 228, 94);
 }
 main {
-    background: linear-gradient(rgba(230, 227, 144, 0.5), rgba(226, 182, 79, 0.5));
+    background: linear-gradient(rgba(216, 165, 24, 0.5), rgba(91, 4, 4, 0.5));
 }
-.banner {
-    background: url(/images/back.jpg);
+ .principal {
+    background: url(/images/back.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.principal2 {
+    background: url(/images/back5.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron {
+    background-color: rgba(238, 203, 121, 0.7);
+    border-radius: 10px;
+    color:rgb(60, 29, 5);
+}
+.card-body {
+    background-color: rgba(238, 203, 121, 0.7);
+}
+.card-title {
+    color: rgb(60, 29, 5);
+}
+.card-text {
+    color:rgb(60, 29, 5);
+    font-size: medium;
 }
 a:link {
     text-decoration:none;
@@ -20,5 +35,7 @@ a:link {
 }
 .foot {
     font-size: small;
-    text-align: right;
+}
+.pagination a {
+    color:brown
 }
