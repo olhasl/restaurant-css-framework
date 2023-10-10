@@ -1,8 +1,9 @@
 .navbar-brand {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-main {
+body {
     background: linear-gradient(rgba(216, 165, 24, 0.5), rgba(91, 4, 4, 0.5));
+    height: 100%;
 }
  .principal {
     background: url(/images/back.jpg) center center fixed;
@@ -10,10 +11,15 @@ main {
     background-size: cover;
 }
 .principal2 {
-    background: url(/images/back5.jpg) center center fixed;
+    background: url(/images/back52.webp) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*.principal5 {
+    background: url(/images/back4.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
 .jumbotron {
     background-color: rgba(238, 203, 121, 0.7);
     border-radius: 10px;
@@ -29,13 +35,33 @@ main {
     color:rgb(60, 29, 5);
     font-size: medium;
 }
-a:link {
+a:link, a:visited, a:active {
     text-decoration:none;
-    color:beige
+    color:rgb(243, 224, 142)
 }
 .foot {
     font-size: small;
+    color:rgb(243, 224, 142)
 }
 .pagination a {
     color:brown
 }
+.footer {
+	flex: 0 0 auto;
+}
+/*.cookie-alert {
+    background-color: beige;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100%);
+}
+.cookie-alert_container {
+    align-items: center;
+    padding: 20px;
+    display: flex;
+}
+.cookie-alert_left {
+    padding-right: 20px;
+}*/

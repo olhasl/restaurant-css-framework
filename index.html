@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Restaurant</title>
 </head>
 <body>
     <header>
       <nav class="navbar navbar-expand-md bg-dark border-bottom border-body w-100 " data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand mx-4 py-3" href="index.html">
-                  <img src="/images/logo.webp" alt="Logo" width="30" height="30" class="d-inline-block text-lg-start align-text-center"> Ukrainian House
+                <a class="navbar-brand mx-4 py-3" href="index.html" style="font-family: 'Pacifico', cursive; font-size: 30px;">
+                  <img src="/images/logo.webp" alt="Logo" width="30" height="30" class="d-inline-block text-lg-start align-text-center"> Stary Mlyn
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -41,10 +44,10 @@
     </header>
     <main>
       <section class="principal">
-      <div class="jumbotron container text-center">
+      <div class="jumbotron container text-center mt-3">
         <!--<img src="/images/food-jumbotron.avif" class="img-jumbotron" alt="Welcome">-->
         <h1 class="display">Welcome to Our Restaurant</h1>
-        <h1 class="display-1"><b><u>Ukrainian House</u></b></h1>
+        <h1 style="font-family: 'Pacifico', cursive; font-size: 60px;"><b><u>Stary Mlyn</u></b></h1>
         <p class="lead"><b>Family restaurant serving Ukrainian food. <br>
                         Everything for a family holiday.<br>
                         A place for those who value quality.</b></p>
@@ -53,15 +56,43 @@
     <div class="container pt-2">
       <div class="row">
           <div class="col-12 col-md-6">
+
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+
               <div class="card mb-4 p-2">
                 <img src="/images/promo.webp" class="card-img-top" alt="Promo Image">
                   <div class="card-body text-center">
                       <h2 class="card-title">Special Offers</h2>
-                      <p class="card-text">Explore our latest promotions and discounts on exquisite dishes.<br>
-                        <b>Have breakfast with us every day until 11.00</b></p>
-                      <a href="#" class="btn btn-dark">Read More</a>
+                      <p class="card-text">Explore our promotions and discounts.<br>
+                        <b>Have breakfast with us every day until 11.00 and get a 10% discount</b></p>
+                      <a href="pictures1.html" class="btn btn-dark">Learn More</a>
                   </div>
               </div>
+
+                </div>
+                <div class="carousel-item">
+                  <div class="card mb-4 p-2">
+                    <img src="/images/order2.jpg" class="card-img-top" alt="Promo Image">
+                      <div class="card-body text-center">
+                          <h2 class="card-title">Special Offers</h2>
+                          <p class="card-text"><b>Your favorite dishes with home delivery. We accept and deliver orders every day from 12:00 AM to 7:30 PM</b></p>
+                          <a href="menu.html" class="btn btn-dark">Order now</a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
           </div>
           <div class="col-12 col-md-6">
             <div class="card mb-4 p-2">
@@ -71,7 +102,7 @@
                     <p class="card-text">Join us for special events and culinary experiences at our restaurant.<br>
                       <b>Every Saturday is Family Day. Join us!</b>
                     </p>
-                    <a href="#" class="btn btn-dark">Read More</a>
+                    <a href="contact.html" class="btn btn-dark">Book now</a>
                 </div>
             </div>
           </div>
@@ -81,15 +112,27 @@
     </main>
     <footer>
       <div class="nav2 bg-dark p-3 border-top border-body w-100 text-light">
-        <a href="index.html">Home</a> | 
-        <a href="menu.html">Menu</a> | 
-        <a href="gallery.html">Gallery</a> |
-        <a href="restaurants.html">Restaurants</a> |
+        <a href="index.html">Home |</a> 
+        <a href="menu.html">Menu |</a> 
+        <a href="gallery.html">Gallery |</a>
+        <a href="restaurants.html">Restaurants |</a>
         <a href="contact.html">Contact</a>
-        <p class="foot text-end">Copyright&copy 2023 All rights reserved</p>
+        <p class="foot text-end">&copy 2023 All rights reserved<br>Stary Mlyn</p>
       </div>
-    </section>
     </footer>
+
+    <!--<div class="cookie-alert">
+      <div class="cookie-alert_container">
+        <div class="cookie-alert_left">
+          <p class="mb-0">Cookies help us deliver the best experience on our website. By using our website, you agree to the use of cookies. </p>
+        </div>
+        <div class="cookie-alert_right">
+          <a href="https://en.wikipedia.org/wiki/HTTP_cookie" class="text-black" target="_blank">More details</a>
+          <button class="btn btn-warning btn-sm ms-3">Accept</button>
+        </div>
+      </div>
+    </div>-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </body>
 </html>

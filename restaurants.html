@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Restaurant</title>
 </head>
 <body>
     <header>
       <nav class="navbar navbar-expand-md bg-dark border-bottom border-body w-100 " data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand mx-4 py-3" href="index.html">
-                  <img src="/images/logo.webp" alt="Logo" width="30" height="30" class="d-inline-block text-lg-start align-text-center"> Ukrainian House
+                <a class="navbar-brand mx-4 py-3" href="index.html" style="font-family: 'Pacifico', cursive; font-size: 30px;">
+                  <img src="/images/logo.webp" alt="Logo" width="30" height="30" class="d-inline-block text-lg-start align-text-center"> Stary Mlyn
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -20,7 +23,7 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="menu.html">Menu</a>
@@ -29,7 +32,7 @@
                     <a class="nav-link" href="gallery.html">Gallery</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="restaurants.html">Restaurants</a>
+                    <a class="nav-link active" aria-current="page" href="restaurants.html">Restaurants</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -40,48 +43,93 @@
           </nav>
     </header>
     <main>
-    <div class="description container-fluid text-center"><h1 class="display-1 mb-4"><u>Come to <br>"Ukrainian House"</u></h1>
-        <p class="text fs-3">a symbol of taste, quality and family recreation</p>
-    </div>
-    <div class="container-fluid">
-            <h1 class="text-center text-bg-warning my-4"><i>Our Restaurants</i></h1>
-        <div class="row px-2 justify-content-around">
-                <div class="col-12 col-md-5 bg-warning-subtle m-1 p-3">
-                    <h2 class="text text-uppercase text-decoration-underline text-center mb-4">Ukrainian House in Brussels</h2>
-                    <p class="text fs-4 text-center"><b>Address:</b></p>
-                    <p class="text text-center">Rue de la Charrette 30, <br>1200 Woluwe-Saint-Lambert, <br>Belgium</p>
-                    <p class="text fs-4 text-center"><b>Opening Hours:</b> </p>
-                    <p class="text text-center">Mon-Fri: 9 AM - 10 PM, <br>Sat-Sun: 10 AM - 9 PM</p>
+    <div class="description container-fluid text-center mt-5">
+        <h1>Welcome to </h1>
+        <h1 style="font-family: 'Pacifico', cursive; font-size: 50px;">Stary Mlyn</h1>
+        <p class="text fs-4"><b>Ukrainian restaurants in Belgium - <br>
+          a symbol of taste, quality and family recreation.</b></p>
+    
+        <p class="text fs-4">In any weather and day of the year, visit us. <br>Taste and quality are the main things in our work. <br>A carefully thought-out menu, preserved authentic recipes, <br> the desire to improve, experiment, study and increase quality <br>make the cuisine of our restaurant consistently delicious.</p>
+        <div class="row px-2 justify-content-around mt-5">
+                <div class="col-12 col-md-5 justify-content-center mt-2 p-3 border">
+                    <h2 class="text text-decoration-underline text-center mb-4">"Stary Mlyn" in Brussels</h2>
+                    <table class="table-warning w-85">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Address:</th>
+                          <td>Rue de la Charrette 30, 1200 Brussels</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <table class="table-warning w-100">
+                      <thead>
+                        <tr>
+                          <th scope="col">Days</th>
+                          <th scope="col">Opening Hours</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Monday to Friday</th>
+                          <td>9:00 AM - 10:00 PM</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Saturday to Sunday</th>
+                          <td>10:00 AM - 9:00 PM</td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
-            
-                <div class="col-12 col-md-5 bg-warning-subtle m-1 p-3">
-                    <h2 class="text text-uppercase text-decoration-underline text-center mb-4">Ukrainian House in Liege</h2>
-                    <p class="text fs-4 text-center"><b>Address:</b></p>
-                    <p class="text text-center">Rue Courtois 1, <br>4000 Liege, <br>Belgium</p>
-                    <p class="text fs-4 text-center"><b>Opening Hours:</b> </p>
-                    <p class="text text-center">Mon-Fri: 11 AM - 9 PM, <br>Sat-Sun: 12 PM - 8 PM</p>
+                <div class="col-12 col-md-5 text-center mt-2 m-1 p-3 border">
+                    <h2 class="text text-decoration-underline text-center mb-4">"Stary Mlyn" in Liege</h2>
+                    <table class="table-warning w-85">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Address:</th>
+                          <td>Rue Courtois 1, 4000 Liege</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br>
+                    <table class="table-warning w-100">
+                      <thead>
+                        <tr>
+                          <th scope="col">Days</th>
+                          <th scope="col">Opening Hours</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">Monday to Friday</th>
+                          <td>11:00 AM - 9:00 PM</td>
+                        </tr>
+                        <tr>
+                          <td scope="row">Saturday to Sunday</th>
+                          <td>12:00 AM - 8:00 PM</td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
         </div>
-        <div class="row px-2 my-4 justify-content-center">
-            <div class="col-12 col-md-6">
-                <div id="map">
+                <div class="row px-2 my-4 justify-content-center">
+                  <div class="col-12 col-md-6">
+                    <div id="map">
                     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rMbbozXyfYaIwZD9a4IdSh8JEtKXdPo&ehbc=2E312F" width="640" height="480"></iframe>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
     </div>
-
     </main>
     <footer>
       <div class="nav2 bg-dark p-3 border-top border-body w-100 text-light">
-        <a href="index.html">Home</a> | 
-        <a href="menu.html">Menu</a> | 
-        <a href="gallery.html">Gallery</a> |
-        <a href="restaurants.html">Restaurants</a> |
+        <a href="index.html">Home |</a> 
+        <a href="menu.html">Menu |</a> 
+        <a href="gallery.html">Gallery |</a>
+        <a href="restaurants.html">Restaurants |</a>
         <a href="contact.html">Contact</a>
-        <p class="foot text-end">Copyright&copy 2023 All rights reserved</p>
+        <p class="foot text-end">&copy 2023 All rights reserved<br>Stary Mlyn</p>
       </div>
-    </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
 </body>
