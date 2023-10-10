@@ -1,5 +1,5 @@
 # Site Web du Restaurant "STARY MLYN"
-Lien :
+Lien : https://olhasl.github.io/restaurant-css-framework/
 
 Ce projet est un site Web pour le restaurant fictif "Stary Mlyn". C'est une plateforme en ligne destinée aux clients et aux amateurs de bonne cuisine. Il présente le menu, les horaires d'ouverture, l'emplacement et d'autres informations utiles sur le restaurant.
 
@@ -52,9 +52,9 @@ Du 3 au 10 octobre 2023, dans le cadre du projet de formation BeCode
 
 ## Auteurs
 
-- ***Olha SLUTSKA (apprenante chez BeCode)***
-email : olya.slutskaya@gmail.com
-GitHub : https://github.com/olhasl
+***Olha SLUTSKA (apprenante chez BeCode)***   
++ email : olya.slutskaya@gmail.com    
++ GitHub : https://github.com/olhasl
 
 
 &copy; 2023 Tous droits réservés
